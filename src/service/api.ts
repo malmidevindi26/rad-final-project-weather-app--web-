@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "http://localhost:5000/api/v1"
+    // baseURL: "http://localhost:5000/api/v1"
+    baseURL: "https://rad-final-project-weather-app-servi.vercel.app/api/v1"
 })
 
 const PUBLIC_ENDPOINTS = ["/auth/login", "/auth/register"]

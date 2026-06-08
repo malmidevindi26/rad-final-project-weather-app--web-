@@ -24,7 +24,7 @@ export const ProfileModal: React.FC<ProfileModelProps> = ({ isOpen, onClose, use
     setLoading(true);
 
     try {
-      const response = await updateMyProfilePic(selectedFile);
+      await updateMyProfilePic(selectedFile);
       alert("Profile picture updated successfully!");
 
       const localImageUrl = URL.createObjectURL(selectedFile);

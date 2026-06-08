@@ -1,5 +1,5 @@
 
-import React, { useState } from "react"
+import { useState } from "react"
 import { getMyDetails, login } from "../service/auth"
 import { useNavigate } from "react-router-dom"
 import { useAuth } from "../hooks/useAuth"
