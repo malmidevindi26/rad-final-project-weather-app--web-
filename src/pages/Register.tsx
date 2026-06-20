@@ -24,7 +24,7 @@ const Register = () => {
       navigate("/login")
     } catch (err) {
       console.error(err)
-      alert("Registration fail..!")
+      alert("User already exits..!")
     }
   }
 

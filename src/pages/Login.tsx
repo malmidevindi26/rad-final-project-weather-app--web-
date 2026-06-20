@@ -29,11 +29,11 @@ const Login = () => {
 
         navigate("/")
       } else {
-        alert("Login fail..!")
+        alert("Login fail..!, Invalid Credentials")
       }
     } catch (err) {
       console.error(err)
-      alert("Login fail..!")
+      alert("Login fail..!, Invalid Credentials")
     }
   }
 
